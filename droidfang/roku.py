@@ -3,7 +3,7 @@ import time
 def rokuon():
     import requests
 
-    roku_ip = '192.168.1.239'  # Replace with your Roku TV's IP address
+    roku_ip = 'your ip'  # Replace with your Roku TV's IP address
 
     # Construct the POST request payload to turn on the TV
     payload = '<?xml version="1.0" encoding="UTF-8"?><root><Power mode="PowerOn"></Power></root>'
@@ -21,7 +21,7 @@ def rokuon():
 def youtuberoku():
     import requests
     # Set the IP address of your Roku device
-    ROKU_IP = '192.168.1.239'
+    ROKU_IP = 'your ip'
 
     # Launch the YouTube app
     try:
@@ -35,7 +35,7 @@ def youtuberoku():
 def rokuhome():
     import requests
 
-    roku_ip = '192.168.1.239'  # Replace with your Roku TV's IP address
+    roku_ip = 'your ip'  # Replace with your Roku TV's IP address
 
     # Construct the POST request payload to turn on the TV
     payload = '<?xml version="1.0" encoding="UTF-8"?><root><Power mode="Home"></Power></root>'
@@ -53,7 +53,7 @@ def rokuhome():
 def rokuoff():
     import requests
 
-    roku_ip = '192.168.1.239'  # Replace with your Roku TV's IP address
+    roku_ip = 'your ip'  # Replace with your Roku TV's IP address
 
     # Construct the POST request payload to turn on the TV
     payload = '<?xml version="1.0" encoding="UTF-8"?><root><Power mode="PowerOff"></Power></root>'
@@ -71,7 +71,7 @@ def rokuoff():
 def volumeup():
     import requests
 
-    roku_ip = '192.168.1.239'  # Replace with your Roku TV's IP address
+    roku_ip = 'your ip'  # Replace with your Roku TV's IP address
 
     for i in range(5):
         # Construct the POST request payload to turn on the TV
@@ -89,7 +89,7 @@ def volumeup():
 def rokumute():
     import requests
 
-    roku_ip = '192.168.1.239'  # Replace with your Roku TV's IP address
+    roku_ip = 'your ip'  # Replace with your Roku TV's IP address
 
     # Construct the POST request payload to turn on the TV
     payload = '<?xml version="1.0" encoding="UTF-8"?><root><Power mode="VolumeMute"></Power></root>'
@@ -107,7 +107,7 @@ def rokumute():
 def volumedown():
     import requests
 
-    roku_ip = '192.168.1.239'  # Replace with your Roku TV's IP address
+    roku_ip = 'your ip'  # Replace with your Roku TV's IP address
 
     for i in range(5):
         # Construct the POST request payload to turn on the TV
@@ -125,7 +125,7 @@ def volumedown():
 def rokuselect():
     import requests
 
-    roku_ip = '192.168.1.239'  # Replace with your Roku TV's IP address
+    roku_ip = 'your ip'  # Replace with your Roku TV's IP address
 
     # Construct the POST request payload to turn on the TV
     payload = '<?xml version="1.0" encoding="UTF-8"?><root><Power mode="Select"></Power></root>'
@@ -143,7 +143,7 @@ def rokuselect():
 def rokuplay():
     import requests
 
-    roku_ip = '192.168.1.239'  # Replace with your Roku TV's IP address
+    roku_ip = 'your ip'  # Replace with your Roku TV's IP address
 
     # Construct the POST request payload to turn on the TV
     payload = '<?xml version="1.0" encoding="UTF-8"?><root><Power mode="Play"></Power></root>'
@@ -161,7 +161,7 @@ def rokuplay():
 def rokuback():
     import requests
 
-    roku_ip = '192.168.1.239'  # Replace with your Roku TV's IP address
+    roku_ip = 'your ip'  # Replace with your Roku TV's IP address
 
     # Construct the POST request payload to turn on the TV
     payload = '<?xml version="1.0" encoding="UTF-8"?><root><Power mode="Back"></Power></root>'
@@ -179,7 +179,7 @@ def rokuback():
 def rokuup():
     import requests
 
-    roku_ip = '192.168.1.239'  # Replace with your Roku TV's IP address
+    roku_ip = 'your ip'  # Replace with your Roku TV's IP address
 
     # Construct the POST request payload to turn on the TV
     payload = '<?xml version="1.0" encoding="UTF-8"?><root><Power mode="Up"></Power></root>'
@@ -197,7 +197,7 @@ def rokuup():
 def rokudown():
     import requests
 
-    roku_ip = '192.168.1.239'  # Replace with your Roku TV's IP address
+    roku_ip = 'your ip'  # Replace with your Roku TV's IP address
 
     # Construct the POST request payload to turn on the TV
     payload = '<?xml version="1.0" encoding="UTF-8"?><root><Power mode="Down"></Power></root>'
@@ -215,7 +215,7 @@ def rokudown():
 def rokuleft():
     import requests
 
-    roku_ip = '192.168.1.239'  # Replace with your Roku TV's IP address
+    roku_ip = 'your ip'  # Replace with your Roku TV's IP address
 
     # Construct the POST request payload to turn on the TV
     payload = '<?xml version="1.0" encoding="UTF-8"?><root><Power mode="Left"></Power></root>'
@@ -233,7 +233,7 @@ def rokuleft():
 def rokuright():
     import requests
 
-    roku_ip = '192.168.1.239'  # Replace with your Roku TV's IP address
+    roku_ip = 'your ip'  # Replace with your Roku TV's IP address
 
     # Construct the POST request payload to turn on the TV
     payload = '<?xml version="1.0" encoding="UTF-8"?><root><Power mode="Right"></Power></root>'
